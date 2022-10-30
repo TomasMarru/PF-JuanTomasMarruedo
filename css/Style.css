@@ -1,0 +1,231 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/953/586/533/texture-surface-dark-blue-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    
+}
+header{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4QKDgzJ_UiXbukdhkIHtGFFX_XDH01NVfwA&usqp=CAU);
+    
+    width: 100%;
+    padding-left: 30px;
+    height: 100px;
+    
+
+
+
+}
+
+h1{
+    color: rgb(0, 0, 5);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-size: 15px;
+    padding-top: 68px;
+    bottom: 20px;
+    padding-left: 100px;
+    left: 100px;
+    top: 60%;
+    
+    
+}
+
+nav{
+    width: 100%;
+    background-color: rgba(26, 37, 194, 0.507);
+    position: sticky;
+    top: 1px;
+    
+
+}
+
+a{
+    color: aliceblue;
+    text-decoration: aliceblue;
+    size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 20px;
+
+    
+    
+    left: 90px;
+    
+    
+    
+}
+
+li{
+    height: 20px;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+p{
+    color: aliceblue;
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    color: aliceblue;
+    font-size: 40px;
+    position: relative;
+    left: 25%;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    position: relative;
+    left: 25%;
+    padding: 50px;
+}
+#imagenescudo{
+    position: absolute;
+    left: 0px;
+    top: -40px;
+    padding-bottom: 50px;
+
+}
+
+#imagenescudo2{
+    
+        position: absolute;
+        left: 0px;
+        top: -40px;
+        padding-bottom: 50px;
+    
+    
+}
+
+#imagenescudo3{
+    position: absolute;
+    left: 0px;
+    top: -40px;
+    padding-bottom: 50px;
+
+}
+
+#imagenescudo4{
+    position: absolute;
+    left: 0px;
+    top: -40px;
+    padding-bottom: 50px;
+
+}
+
+#imagenescudo5{
+    position: absolute;
+    left: 0px;
+    top: -40px;
+    padding-bottom: 50px;
+}
+
+iframe{
+    position: relative;
+    left: 25%;
+    bottom: 25px;
+}
+
+label{
+    position: relative;
+    left: 15%;
+    top: 80px;
+    color: aliceblue;
+    display: block;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+input{
+    position: relative;
+    left: 15%;
+    top: 80px;
+    display: block;
+    margin-bottom: 35px;
+    
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+redes{
+    display: flex;
+    width: 100px;
+
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 100%;
+    
+}
+
+#grilla{
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 180px 100px 900px 200px;
+    grid-template-areas:"header" 
+                        "nav"
+                        "main"
+                        "footer";
+
+}
+
+@media only screen and ( max-width:600px) {
+
+    header{
+        height: 100px;
+    }
+
+    ul{
+        height: 250px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    li{
+        font-size: 20px;
+    }
+    
+    #grilla{
+    height: 1600px;
+    grid-template-columns: 90%;
+    grid-template-rows: 200px 200px;
+    grid-template-areas:"foto1"
+                        "foto2";
+
+    align-content: center;
+    
+}
+}
+
+
+
+
+
+
