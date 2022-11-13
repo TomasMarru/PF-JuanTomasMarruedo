@@ -1,3 +1,14 @@
+:root{
+    
+    --color_principal: aliceblue;
+    --tipografia: arial; 
+
+
+
+
+
+}
+
 *{
     margin: 0%;
     padding: 0%;
@@ -8,15 +19,15 @@ body{
     background-image: url(https://p4.wallpaperbetter.com/wallpaper/953/586/533/texture-surface-dark-blue-wallpaper-preview.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 1000px;
+    
     
 }
 header{
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4QKDgzJ_UiXbukdhkIHtGFFX_XDH01NVfwA&usqp=CAU);
     
     width: 100%;
-    padding-left: 30px;
-    height: 100px;
+    
+    
     
 
 
@@ -25,14 +36,14 @@ header{
 
 h1{
     color: rgb(0, 0, 5);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--tipografia)
     width: 100%;
     font-size: 15px;
-    padding-top: 68px;
+    padding-top: 100px;
     bottom: 20px;
-    padding-left: 100px;
-    left: 100px;
-    top: 60%;
+    
+    
+    top: 60% 
     
     
 }
@@ -47,10 +58,10 @@ nav{
 }
 
 a{
-    color: aliceblue;
+    color: var(--color_principal);
     text-decoration: aliceblue;
     size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--tipografia)
     width: 100%;
     height: 20px;
 
@@ -70,18 +81,18 @@ li{
 }
 
 p{
-    color: aliceblue;
+    color: var(--color_principal);
     padding: 40px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--tipografia)
 }
 
 h2{
-    color: aliceblue;
+    color: var(--color_principal);
     font-size: 40px;
     position: relative;
     left: 25%;
     padding-top: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--tipografia)
 }
 img{
     position: relative;
@@ -139,11 +150,11 @@ label{
     position: relative;
     left: 15%;
     top: 80px;
-    color: aliceblue;
+    color: var(--color_principal);
     display: block;
     padding-top: 25px;
     padding-bottom: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--tipografia)
     
 }
 
@@ -188,7 +199,7 @@ ul{
 
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 180px 100px 900px 200px;
+    grid-template-rows: 120px 90px 1000px 200px;
     grid-template-areas:"header" 
                         "nav"
                         "main"
@@ -199,7 +210,7 @@ ul{
 @media only screen and ( max-width:600px) {
 
     header{
-        height: 100px;
+        height: 120px;
     }
 
     ul{
@@ -213,9 +224,9 @@ ul{
     }
     
     #grilla{
-    height: 1600px;
-    grid-template-columns: 90%;
-    grid-template-rows: 200px 200px;
+    
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 270px;
     grid-template-areas:"foto1"
                         "foto2";
 
@@ -223,6 +234,8 @@ ul{
     
 }
 }
+
+
 
 
 
